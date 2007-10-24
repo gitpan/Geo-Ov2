@@ -1,0 +1,24 @@
+.cvsignore
+Changes
+lib/Geo/Ov2.pm
+Makefile.PL
+MANIFEST
+META.yml			# Will be created by "make dist"
+README
+t/00-load.t
+t/boilerplate.t
+t/pod-coverage.t
+t/pod.t
+etc/catgroup.conf
+ttn2device
+l10n/Makefile
+l10n/PACKAGE
+l10n/POTFILES.in
+l10n/README
+l10n/cs.po
+l10n/net.suteren.POI.ttn2device.pot
+lib/LocaleData/cs/LC_MESSAGES/net.suteren.POI.ttn2device.mo
+lib/LocaleData/czech/LC_MESSAGES/net.suteren.POI.ttn2device.mo
+configure
+l10n/pod.pot
+lib/LocaleData/cs_CZ/LC_MESSAGES/net.suteren.POI.ttn2device.mo
