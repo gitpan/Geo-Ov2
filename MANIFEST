@@ -17,10 +17,15 @@ l10n/Makefile
 l10n/PACKAGE
 l10n/POTFILES.in
 l10n/README
-l10n/cs.po
 l10n/net.suteren.POI.ttn2device.pot
 lib/LocaleData/cs/LC_MESSAGES/net.suteren.POI.ttn2device.mo
 lib/LocaleData/czech/LC_MESSAGES/net.suteren.POI.ttn2device.mo
 configure
 l10n/pod.pot
 lib/LocaleData/cs_CZ/LC_MESSAGES/net.suteren.POI.ttn2device.mo
+l10n/cs_CZ.mo
+l10n/cs.mo
+l10n/czech.mo
+l10n/cs_CZ.po
+l10n/cs.po
+l10n/czech.po

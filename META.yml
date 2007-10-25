@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Geo-Ov2
-version:             0.90_05
+version:             0.90_06
 abstract:            Library for reading and writing TomTom Navigator .ov2 POI files.
 license:             ~
 generated_by:        ExtUtils::MakeMaker version 6.36
