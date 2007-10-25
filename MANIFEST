@@ -5,6 +5,8 @@ Makefile.PL
 MANIFEST
 META.yml			# Will be created by "make dist"
 README
+getpoi.cron.sh
+getpoi.sh
 t/00-load.t
 t/boilerplate.t
 t/pod-coverage.t
