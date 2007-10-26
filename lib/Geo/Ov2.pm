@@ -19,11 +19,11 @@ Extends L<IO::File>
 
 =head1 VERSION
 
-Version 0.90_07
+Version 0.91
 
 =cut
 
-our $VERSION = '0.90_07';
+our $VERSION = '0.91';
 
 our %defaults = ( repart_size=> 10, repartition => 1, deareize => 0 );
 our %params;

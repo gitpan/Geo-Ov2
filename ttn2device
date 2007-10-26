@@ -83,6 +83,10 @@ L<Pod::Usage>, L<pod2usage(1)>, L<Geo::Ov2>
 
 =head1 BUGS
 
+=head1 TODO
+
+Do some checking for correct syntax and feedback to user.
+
 =over
 
 =item
