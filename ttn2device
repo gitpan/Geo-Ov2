@@ -84,8 +84,10 @@ L<Pod::Usage>, L<pod2usage(1)>, L<Geo::Ov2>
 =head1 BUGS
 
 =over
+
 =item
 Translation of help message is dependent on pod2usage implementation. If help message is not displayed in expected language, you can check net.suteren.POI.ttn2device for corresponding message
+
 =back
 
 =cut

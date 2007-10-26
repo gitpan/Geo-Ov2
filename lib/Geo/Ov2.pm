@@ -19,11 +19,11 @@ Extends L<IO::File>
 
 =head1 VERSION
 
-Version 0.90_06
+Version 0.90_07
 
 =cut
 
-our $VERSION = '0.90_06';
+our $VERSION = '0.90_07';
 
 our %defaults = ( repart_size=> 10, repartition => 1, deareize => 0 );
 our %params;
@@ -215,7 +215,7 @@ sub poiwrite {
 
 }
 
-=head2 poiwrite
+=head2 poiread
 
 This method reads data  from ov2 file and returns hashref into POI structure:
 
@@ -496,11 +496,14 @@ sub split_area {
 	my $dimension = "longitude";
 	$dimension = "latitude" if $orientation % 2;
 	@pois = sort { ${$a}{$dimension} <=> ${$b}{$dimension} } @pois;
-=cut
+
+=pod
+
 	foreach my $i ( @pois ) {
 		printf STDERR "sort: %s: %d\n", $dimension, ${$i}{$dimension};
 	}
 	printf STDERR "========================\n";
+
 =cut
 	my $blocksize = ( ( $#pois + 1 ) / ( $self->repart_size - 1 ) ) + 1;
 	if ( $#pois > $self->repart_size and $orientation < 10 ) {
